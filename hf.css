@@ -1,0 +1,50 @@
+
+/* body{ */
+  /* height: 1000vh; */
+  /* z-index: 1; */
+  /* position: relative; */
+  /* } */
+#header{
+  position: relative; /*consider sticky*/
+  top: 0;
+  /* height: 180px; */
+  /* width:1000px; */
+  border-bottom: 8px solid #C70E12;
+  padding: 0;
+  /* vertical-align: top; */
+  height: 180px;
+  /* z-index: 1; */
+}
+#kbri{
+  position: relative;
+  /* position: sticky; */
+  width: 119px;
+  height: 115px;
+  vertical-align: top;
+  margin-top: 13px;
+  margin-left: 48px;
+}
+#bi{
+  position: relative;
+  width: 361px;
+  height: 232px;
+  top: -46px;
+  vertical-align: top;
+  z-index: -1;
+}
+
+#sitename{
+  margin-top: 43px;
+  margin-left: 47px;
+  color: #47525E;
+  position: relative;
+  font-size: 50px;
+  line-height: 65px;
+  text-align: left;
+  display: inline-block;
+  /* text-align: left; */
+  font-family: 'Oswald';
+  /* vertical-align: top; */
+}
+
+
