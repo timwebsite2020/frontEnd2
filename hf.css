@@ -3,9 +3,10 @@
   /* height: 1000vh; */
   /* z-index: 1; */
   /* position: relative; */
+  /* width: 1440px; */
   /* } */
 #header{
-  position: relative; /*consider sticky*/
+  position: sticky; /*consider sticky*/
   top: 0;
   /* height: 180px; */
   /* width:1000px; */
@@ -13,7 +14,10 @@
   padding: 0;
   /* vertical-align: top; */
   height: 180px;
-  /* z-index: 1; */
+  background-color: white;
+  z-index: 1;
+  /* width: 100vw; */
+
 }
 #kbri{
   position: relative;
@@ -30,7 +34,7 @@
   height: 232px;
   top: -46px;
   vertical-align: top;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 #sitename{

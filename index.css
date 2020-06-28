@@ -1,56 +1,117 @@
-/* body{
-  width: 1440px;
-} */
-#content{
+body{
   background-color: #FFFAEB;
 }
 
-.subtext{
+/* #content{ */
+  /* width: 1440px; */
+  /* background-color: #FFFAEB; */
+/* } */
+
+#mainIcon_container{
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 602px;
+  margin-top: 25.33px;
+  margin-left: 210px;
+}
+
+.mainIcon_box{
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 299px;
+  margin-bottom: 56px;
+}
+
+.mainIcon{
+  width: 257px;
+  height: 257px;
+  /* vertical-align: top; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.mainIcon_text{
   text-align: center;
   font-family: 'Chewy';
   font-size: 30px;
   line-height: 39px;
-  margin:0;
+  margin: 0;
 }
 
-#box1{
+#subIcon_container{
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 350px;
+  margin-top: 192.33px;
+  margin-left: 113px;
+}
+
+.subIcon_box{
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  height: 89px;
+}
+
+.subIcon{
+  width: 89.24px;
+  height: 89px;
+}
+.subIcon_text{
+  display: inline-block;
+  margin-left: 28.76px;
+  margin-top: 29px;
+  vertical-align: top;
+  /* margin: 0 auto; */
+  /* line-height: 31px; */
+  color: #3B4B5D;
+  font-family: 'Chewy';
+  font-size: 24px;
+  line-height: 31px;
+  text-align: left;
+}
+/* #box1{
   height: 295px;
   width: 257px;
   margin-left: 215px;
   margin-top: 25.33px;
   vertical-align: top;
   display: inline-block;
-}
+} */
 
-#st1{
+/* #st1{
    color: #E08300;
-}
+} */
 
-#icon1{
+/* #icon1{
   width: 257px;
   height: 257px;
   vertical-align: top;
-}
+} */
 
-#box2{
+/* #box2{
   margin-top: 70px;
   margin-left: 45px;
   display: inline-block;
   width: 291px;
   height: 250px;
 
-}
-#icon2{
+} */
+/* #icon2{
   width: 187px;
   height: 187px;
   vertical-align: top;
   margin-left: 45px;
   margin-bottom: 25px;
-}
-#st2{
-  color: #6DA256;
+} */
+/* #st2{ */
+  /* color: #6DA256; */
   /* vertical-align: top; */
-}
+/* } */
 
 
 
