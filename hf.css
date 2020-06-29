@@ -13,12 +13,12 @@
   border-bottom: 8px solid #C70E12;
   padding: 0;
   /* vertical-align: top; */
-  height: 180px;
+  height: 150px;
   background-color: white;
   z-index: 1;
   /* width: 100vw; */
-
 }
+
 #kbri{
   position: relative;
   /* position: sticky; */
@@ -51,4 +51,11 @@
   /* vertical-align: top; */
 }
 
-
+#home{
+  vertical-align: top;
+  width: 64px;
+  height: 64px;
+  margin-top: 48px;
+  margin-right: 71px;
+  float: right;
+}
