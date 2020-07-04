@@ -1,0 +1,41 @@
+#nama{
+  position: relative;
+  margin-top: 43.67px;
+  margin-left: 368px;
+  font-size: 28px;
+  font-family: 'Bree Serif';
+  color: #233D4D;
+  line-height: 34px;
+  margin-bottom: 38px;
+}
+
+#paragraph{
+  display: inline-block;
+  position: relative;
+  margin-top: 0;
+  margin-left: 205px;
+  width: 400px;
+  color: #8190A5;
+  font-family: 'Lato';
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+
+#pic_template{
+  display: inline-block;
+  position: absolute;
+  margin-left: 199px;
+  width: 520px;
+  height: 540px;
+  /* margin-top: 119.67px; */
+  vertical-align: top;
+}
+
+.destinasi_pic{
+  display: inline-block;
+  position: relative;
+  width: 260px;
+  height: 180px;
+  vertical-align: top; /* getting rid of space underneath images*/
+}

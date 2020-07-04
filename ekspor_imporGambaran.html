@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="hf.css">
+  <link rel="stylesheet" href="ekspor_imporGambaran.css">
+</head>
+
+<body>
+  <div id="header">
+    <img src="icons/kbri.jpg" id="kbri">
+    <img src="icons/bi.png" id="bi">
+    <p id="sitename">JUDUL DASHBOARD</p>
+    <img src="icons/home.png" id="home" onclick="window.location.href='index.html';">
+  </div>
+  <div id="content">
+    <div id="item_container">
+      <img src="icons/left.png" class="mainIcon" onclick="window.location.href='ekspor_impor.html';">
+      <p class="content_text">GAMBARAN UMUM PERDAGANGAN RI-JEPANG</p>
+      <p class="item_label">POTENSI PRODUK EKSPOR INDONESIA KE JEPANG</p>
+      <img src="icons/Screenshot 2020-06-25 at 19.51.16.png" class="item">
+      <p class="item_label">NERACA PERDAGANGAN RI-JEPANG</p>
+      <iframe class="item" title="Neraca Perdagangan Indonesia dengan Jepang (2015-2019)" aria-label="chart"
+        id="datawrapper-chart-7wxHk" src="https://datawrapper.dwcdn.net/7wxHk/1/" scrolling="no" frameborder="0"
+        style="width: 0; min-width: 83.02% !important; border: none;" height="400"></iframe>
+      <div id="subItem_container">
+        <div class="subItem">
+
+          <p class="item_label">TOTAL EKSPOR INDONESIA KE JEPANG</p>
+          <iframe title="Total Ekspor Indonesia ke Jepang (2015-2019)" aria-label="chart" id="datawrapper-chart-oTB0z"
+            src="https://datawrapper.dwcdn.net/oTB0z/1/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe>
+
+        </div><!--
+     --><div class="subItem">
+          <p class="item_label">TOTAL IMPOR INDONESIA DARI JEPANG</p>
+          <iframe title="Total Impor Indonesia dari Jepang (2015-2019)" aria-label="chart" id="datawrapper-chart-F0mg2"
+            src="https://datawrapper.dwcdn.net/F0mg2/2/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) for (var e in a.data["datawrapper-height"]) { var t = document.getElementById("datawrapper-chart-" + e) || document.querySelector("iframe[src*='" + e + "']"); t && (t.style.height = a.data["datawrapper-height"][e] + "px") } })) }();
+  </script>
+</body>
+
+</html>
