@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta text1="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="hf.css">
+  <link rel="stylesheet" href="policyTracker.css">
+</head>
+
+<body>
+  <div id="header">
+    <img src="icons/kbri.jpg" id="kbri">
+    <img src="icons/bi.png" id="bi">
+    <p id="sitename">JUDUL DASHBOARD</p>
+    <img src="icons/home.png" id="home" onclick="window.location.href='index.html';">
+  </div>
+  <div id="content">
+    <p id="title">POLICY RESPONSE TRACKER</p>
+    <p id="title_description">
+      Track the latest policy response regarding COVID-19
+    </p>
+    <img src="icons/left.png" class="arrow" id="left">
+    <img src="icons/right.png" class="arrow" id="right">
+    <div id="line"></div>
+    <div id="data_container">
+      <div class="data_box">
+        <div class="hexagon" id="hex1">
+          <p class="hex_txt">27<br> May<br> 2020</p>
+        </div>
+        <div class="data" id="data0" onmouseover="withmouse(0);" onmouseout="withoutmouse(0);">
+          <p class="text1">FISCAL<br>POLICY</p>
+          <p class="text2">Ministry of Finance</p>
+        </div>
+      </div>
+      <div class="data_box">
+        <div class="hexagon" id="hex1">
+          <p class="hex_txt">27<br> May<br> 2020</p>
+        </div>
+        <div class="data">
+          <p class="text1">MACROPRUDENTIAL POLICY</p>
+          <p class="text2">Bank Indonesia</p>
+        </div>
+      </div>
+      <div class="data_box">
+        <div class="hexagon" id="hex1">
+          <p class="hex_txt">29<br> May<br> 2020</p>
+        </div>
+        <div class="data">
+          <p class="text1">FISCAL<br>STIMULUS</p>
+          <p class="text2">Ministry of Finance</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="policyTracker.js"></script>
+  <script>
+    var sampleData = [
+      {
+        "text1":
+          '<p class="text1">FISCAL<br>POLICY</p><p class= "text2"> Ministry of Finance</p>',
+        "text2":
+          '<p class="paragraph">Levied a Value Added Tax(VAT) of 10% starting July 1, 2020 on purchases of digital products and services from traders or providers of Commerce through Electronic Systems(PMSE), both from outside and within the country, which reaches a certain transaction value or amount of traffic and access within 12 months</p><p class="paragraph_footer">More > > ></p>'
+      },
+      { "text1": "main_japan", "text2": "DATA EKONOMI JEPANG" },
+      { "text1": "main_bank", "text2": "BANK DATA KEBIJAKAN" }
+    ];
+  </script>
+</body>
+
+</html>
