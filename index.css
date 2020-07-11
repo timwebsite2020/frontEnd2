@@ -7,24 +7,6 @@ body{
   /* background-color: #FFFAEB; */
 /* } */
 
-@media only screen and (max-width: 600px) {
-  body {
-    /* width: ; */
-    zoom: 0.7;
-  }
-
-  #header{
-    zoom: 0.7;
-  }
-  div#subIcon_container{
-    display: block;
-    position: relative;
-    margin-top: 0px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-  }
-}
-
 #mainIcon_container{
   display: inline-block;
   position: relative;
