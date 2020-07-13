@@ -111,3 +111,20 @@
   z-index: 1;
 }
 
+.hex_icons{
+  /* display: block; */
+  z-index: 1;
+  position: absolute;
+  /* vertical-align: top; */
+  /* top: 0; */
+  /* float: left; */
+  width: 124px;
+  height: 124px;
+  /* top:0; */
+  bottom: 10px;
+  /* margin-left: 37px; */
+}
+
+img[src="icons/komoditas_otomotif.png"]{
+  bottom: 30px;
+}
